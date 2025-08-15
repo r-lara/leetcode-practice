@@ -22,7 +22,7 @@ The goal is to build a personal reference for algorithms and data structures, im
 
 ## 🛠️ Languages Used
 - **TypeScript** (primary)
-- Occasional examples in JavaScript & Golang for comparison
+- Occasional examples in JavaScript, C++, Java & Go for comparison
 
 ---
 

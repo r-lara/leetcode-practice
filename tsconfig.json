@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // modern JS features
+    "module": "CommonJS",            // Node.js module system
+    "rootDir": "./src",              // source files folder
+    "outDir": "./dist",              // compiled JS files go here
+    "strict": true,                  // enable all strict type checks
+    "esModuleInterop": true,         // allows default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,            // skip checking types of node_modules
+    "moduleResolution": "node",      // resolve modules like Node.js
+    "resolveJsonModule": true,       // import JSON files
+    "allowJs": false,                // only TS files
+    "sourceMap": true,               // useful for debugging
+    "removeComments": true           // remove comments in compiled JS
+  },
+  "include": ["src/**/*"],           // include all TS files in src
+  "exclude": ["node_modules", "dist"] 
+}
