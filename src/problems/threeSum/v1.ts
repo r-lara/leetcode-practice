@@ -38,3 +38,67 @@ function threeSum(nums: number[]): number[][] {
   
   return triples
 }
+
+// const tests: {
+//   skip?: boolean;
+//   expect: any;
+//   inputArgs: any[];
+// }[] = [
+//   {
+//     // skip: true,
+//     expect: [[-1,-1,2],[-1,0,1]],
+//     inputArgs: [[-1,0,1,2,-1,-4]],
+//   },
+//   {
+//     skip: true,
+//     expect: [],
+//     inputArgs: [[0,1,1]],
+//   },
+//   {
+//     skip: true,
+//     expect: [[0,0,0]],
+//     inputArgs: [[0,0,0]],
+//   },
+//   {
+//     skip: true,
+//     expect: [[0,0,0]],
+//     inputArgs: [[0,0,0,0]],
+//   },
+//   {
+//     // skip: true,
+//     expect: [[-2,0,2],[-2,1,1]],
+//     inputArgs: [[-2,0,0,1,1,2]],
+//   },
+//   {
+//     skip: true,
+//     expect: [
+//       [-10,5,5],
+//       [-5,0,5],
+//       [-4,2,2],
+//       [-3,-2,5],
+//       [-3,1,2],
+//       [-2,0,2],
+//     ],
+//     inputArgs: [[2,-3,0,-2,-5,-5,-4,1,2,-2,2,0,2,-4,5,5,-10]],
+//   },
+//   {
+//     skip: true,
+//     expect: [[-3,1,2]],
+//     inputArgs: [[-3,3,4,-3,1,2]],
+//   },
+// ]
+
+// console.clear();
+// for (let i = 0; i < tests.length; i++) {
+//   const test = tests[i];
+//   if (!test) continue;
+//   const { skip = false } = test;
+//   if (skip) continue;
+  
+//   console.log('\n');
+//   console.log(`Test ${i + 1}:`);
+//   const result = threeSum(test.inputArgs[0]!);
+//   console.log(`  Expected:`, test.expect);
+//   console.log(`  Result:`, result );
+//   console.log(`  Valid: ${JSON.stringify(test.expect) === JSON.stringify(result) ? '✅' : '❌'}`);
+// }
